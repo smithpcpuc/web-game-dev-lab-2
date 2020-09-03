@@ -1,6 +1,7 @@
 //add: Should be able to add numbers
 function add (num1, num2) {
-  return ;
+  const result = num1 + num2
+  return result;
 }
 
 //subtract: Should be able to subtract numbers

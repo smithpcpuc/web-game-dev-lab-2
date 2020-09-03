@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@types/jest": "^25.2.2",
-    "jest": "^26.0.1",
+    "jest": "^26.4.2",
     "underscore": "1.8.x"
   },
   "devDependencies": {
