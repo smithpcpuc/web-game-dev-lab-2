@@ -6,7 +6,8 @@ function add (num1, num2) {
 
 //subtract: Should be able to subtract numbers
 function subtract (num1, num2) {
-  return ;
+  const result = num1 - num2
+  return result;
 }
 
 //multiply: Should be able to multiply with precision
