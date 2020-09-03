@@ -9,8 +9,9 @@ function reverseString(str) {
    * 
    * Can even be done on one line
    */
-  return ;
+  return str.split("").reverse().join("");
 }
+reverseString("abc");
 
 //capitalize: should return the input in all-caps
 // Example: "this is a string" => "THIS IS A STRING"
