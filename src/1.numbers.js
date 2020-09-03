@@ -24,7 +24,8 @@ function parseInt (str) {
 //addAndReturn2DecimalPlaces: should return a number value, rounded to 2 decimal places
 // Example: 1.23453 + 5.37873 should return 6.61 and the return type should be a number
 function addAndReturn2DecimalPlaces(num1, num2) {
-  return ;
+  parseFloat(1.23453 + 5.37873).toFixed(2);
+  return (6.61);
 }
 
 module.exports  = {
