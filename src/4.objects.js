@@ -9,7 +9,15 @@
  *      * must use the `class_of` property in the introduction
  */
 const personObject = {
-
+  first_name: "Caleb",
+  last_name: "Smith-Plummer",
+  class_of: 2023,
+  full_name: function() {
+    return this.first_name + " " + this.last_name;
+  },
+  introduction: function() {
+    return "Hello, my name is" +this.full_name()+ " " + " and I am part of the class of "+ this.class_of;
+  }
 };
 
 module.exports = {
