@@ -32,7 +32,8 @@ const result = arr.push(item);
 // Truncate: you should be able to remove the last item of an array
 // hint: pop, slice, splice would all work. Pay attention to the return value in the docs
 function truncate(arr) {
-  return ;
+  const result = arr.pop();
+  return arr;
 }
 
 // Concat: you should be able to join together two arrays
