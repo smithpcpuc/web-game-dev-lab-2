@@ -38,13 +38,13 @@ function truncate(arr) {
 
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
-  return ;
+  const arr3 = arr1.concat(arr2);
+  return arr3;
 }
 
 // Insert: you should be able to add an item at the specified index of an array
 // hint: use splice and pay attention to the return value
 function insert(arr, item, index) {
-
   return ;
 }
 
